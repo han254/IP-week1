@@ -4,13 +4,13 @@
     padding:opx;
 }
 #bar .burger-logo img{
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 5px;
 
 }
 #bar .burger-logo h2{
     display: inline;
-    margin-top: 30px;
+    margin-top: 20px;
     font-family: lobster;
     font-size: 35px;
 }
@@ -51,17 +51,25 @@
 font-family:'poppins';
 font-weight: bold;
 font-size: 25px;
+margin: 25px 20px;
 }
 #part-1 .texts .prgh2{
     font-family: 'poppins';
     padding-top: 30px;
     padding-bottom: 50px;
+    margin: 25px 20px;
 }
 .order{
-    margin: 30px 10px;
+    margin: 30px 50px;
     width: 150px;
     padding: 10px;
     border-radius: 20px;
     background-color: darkorange;
     color: white;
+}
+.pic1 {
+    width: 300px;
+    float: left;
+
+
 }
