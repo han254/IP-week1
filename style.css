@@ -68,12 +68,22 @@ margin: 25px 20px;
     color: white;
 }
 .container{
-    width: 100px;
+    width: 150px;
     display: flex;
+    flex-direction:row;
+    border: groove;
+    padding: 10px 10px 5px 5px;
+    margin: 20px;
 }
 .container .quality img{
 width: 100px;
 flex: 1;
-margin: 20px;
-padding: 20px 10px;
+padding: 10px;
+font-size: 12px;
+}
+.container .quality .fast{
+    width: 100px;
+flex: 1;
+padding: 10px;
+font-size: 12px;
 }
