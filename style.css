@@ -57,14 +57,11 @@ font-size: 25px;
     padding-top: 30px;
     padding-bottom: 50px;
 }
-#order{
-    margin-top: 10px;
-    margin-left: 10px;
-    height: 30px;
-    width: 50px;
+.order{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: darkorange;
     color: white;
-    background-clip: content-box;
-    background-color: yellow;
-    border-radius: 30px;
-
 }
