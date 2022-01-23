@@ -95,3 +95,15 @@ font-size: 12px;
 #part3 h3 span{
     color: yellow;
 }
+.Double-B
+{ 
+    display: flex;
+}
+
+.Double-B .burger1{
+border: 0px solid black;
+border-radius: 30px;
+width: 30px;
+margin: 10px;
+     
+}
