@@ -70,48 +70,53 @@ margin: 25px 20px;
     color: white;
 }
 img{
-    height: 300px;
+    height: 100px;
     float: top left;
     margin: 20px;
 }
 .container{
-    width: 150px;
     display: flex;
-    flex-direction:row;
-    border: groove;
-    padding: 10px 10px 5px 5px;
-    margin: 20px;
+    align-items: flex-end;
+    justify-content: space-between;
 }
-.container .quality img{
-width: 100px;
-flex: 1;
-padding: 10px;
-font-size: 12px;
+.container div{
+    border: 1px groove;
+    padding: 10px;
+    margin: 10px;
+}
+.quality{
+flex:1;
 
 }
-.container .fast img{
-    width: 100px;
+.delivery{
 flex: 1;
-padding: 10px;
-font-size: 12px;
 }
-#part3 h3{
+.meals{
+flex: 1;
+
+}
+.section-b h3{
     text-align:center;
     font-size: 30px;
     font-family: 'poppins';
 }
-#part3 h3 span{
+.section-b h3 span{
     color: yellow;
 }
-.Double-B
-{ 
+.part3{
     display: flex;
 }
-
-.Double-B .burger1{
-border: 0px solid black;
-border-radius: 30px;
-width: 30px;
-margin: 10px;
-     
+.part3 div{
+    border: 1px groove;
+    padding: 10px;
+    margin: 10px;
+}
+.burger1{
+    flex: 1;
+}
+.burger2{
+    flex: 1;
+}
+.burger3{
+    flex: 1;
 }
