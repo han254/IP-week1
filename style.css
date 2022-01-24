@@ -120,3 +120,20 @@ flex: 1;
 .burger3{
     flex: 1;
 }
+.part4{
+    display: flex;
+}
+.part4 div {
+    border: 1px groove;
+    padding: 10px;
+    margin: 10px; 
+}
+.pricing1{
+    flex: 1;
+}
+.pricing2{
+flex: 1;
+}
+.pricing3{
+    flex: 1;
+}
