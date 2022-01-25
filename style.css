@@ -42,20 +42,22 @@
     text-decoration: none;
     color: black;
 }
-#part-1{
-    display: flex;
+.part-1 .quality-b{
+    float: right;
+    width: 200px;
+    height: 300px;
 }
 .section-a{
     padding-left: 80px;
     padding-top: 80px;
 }
-#part-1 .texts .prgh1{
+.part-1 .texts .prgh1{
 font-family:'poppins';
 font-weight: bold;
 font-size: 25px;
 margin: 25px 20px;
 }
-#part-1 .texts .prgh2{
+.part-1 .texts .prgh2{
     font-family: 'poppins';
     padding-top: 30px;
     padding-bottom: 50px;
