@@ -42,26 +42,14 @@
     text-decoration: none;
     color: black;
 }
-.part-1 .quality-b{
-    float: right;
-    width: 200px;
-    height: 300px;
+
+.texts p:first-child{ 
+    font-size: 24px;
+    font-weight: 700;
 }
-.section-a{
-    padding-left: 80px;
-    padding-top: 80px;
-}
-.part-1 .texts .prgh1{
-font-family:'poppins';
-font-weight: bold;
-font-size: 25px;
-margin: 25px 20px;
-}
-.part-1 .texts .prgh2{
-    font-family: 'poppins';
-    padding-top: 30px;
-    padding-bottom: 50px;
-    margin: 25px 20px;
+.texts p:nth-child(2){
+    font-size: 25px;
+    font-weight: 700;
 }
 .order{
     margin: 30px 50px;
@@ -76,15 +64,16 @@ img{
     float: top left;
     margin: 20px;
 }
-.container{
+.section-a{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
-.container div{
+.section-a div{
     border: 1px groove;
     padding: 10px;
     margin: 10px;
+    border-radius: 20px;
 }
 .quality{
 flex:1;
@@ -105,13 +94,14 @@ flex: 1;
 .section-b h3 span{
     color: yellow;
 }
-.part3{
+.section-c{
     display: flex;
 }
-.part3 div{
+.section-c div{
     border: 1px groove;
     padding: 10px;
     margin: 10px;
+    border-radius: 20px;
 }
 .burger1{
     flex: 1;
@@ -122,13 +112,14 @@ flex: 1;
 .burger3{
     flex: 1;
 }
-.part4{
+.section-d{
     display: flex;
 }
-.part4 div {
+.section-d div {
     border: 1px groove;
     padding: 10px;
     margin: 10px; 
+    border-radius: 20px;
 }
 .pricing1{
     flex: 1;
