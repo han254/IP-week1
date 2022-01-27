@@ -1,5 +1,6 @@
 # Pre-prep24-IP
 This is my 1st week Independent project
+## By Peter Njenga
 
 ## Description
 This website is for my burger palace where the prices of the most tastiest burgers are found
