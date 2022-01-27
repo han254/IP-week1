@@ -162,3 +162,29 @@ flex: 1;
 .pricing3{
     flex: 1;
 }
+.section-e{
+    display: flex;
+}
+.Decker{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+.Decker p:first-child{
+    margin: 100px 0 20px 0;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.Decker p:nth-child(2){
+    font-size: 30px;
+    font-weight: 700;
+    color: orange;
+}
+.Decker p:nth-child(3){
+    margin: 20px;
+    font-size: 20px;
+}
